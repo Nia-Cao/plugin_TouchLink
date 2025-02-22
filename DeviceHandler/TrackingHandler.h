@@ -41,7 +41,7 @@ namespace winrt::DeviceHandler::implementation
         std::vector<Joint> trackedJoints = {
             Joint{.Name = L"Left Touch Controller"},
             Joint{.Name = L"Right Touch Controller"},
-            Joint{.Name = L"Oculus VR Headset"}
+            Joint{.Name = L"VR Object"}
         };
 
         std::thread ODTKRAThread;
